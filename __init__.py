@@ -65,10 +65,10 @@ def enable(api: PluginApi):
     api.register_script_function(
         func_logline,
         name="logline",
+        signature=api.tr('help.logline.signature', '$logline(text[,level])'),
         documentation=api.tr(
-            'help.logline',
+            'help.logline.documentation',
             (
-                "`$logline(text[,level])`\n\n"
                 "Logs the text to the Picard log. "
                 "The entry will be written at log level `Info` by default, but this can be changed by "
                 "specifying a different level as an optional second parameter. Allowable log levels are:\n\n"

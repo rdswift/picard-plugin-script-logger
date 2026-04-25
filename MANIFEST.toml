@@ -32,3 +32,4 @@ categories = [
     "other",
 ]
 homepage = "https://picard-plugins-user-guides.readthedocs.io/en/latest/script_logger/user_guide.html"
+report_bugs_to = "https://github.com/rdswift/picard-plugin-script-logger/issues"

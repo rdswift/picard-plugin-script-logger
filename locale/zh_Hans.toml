@@ -1,1 +1,6 @@
+"help.logline.documentation" = "将文本记录到 Picard 日志中。条目默认以 `Info` 级别写入日志，但可以通过指定不同的级别作为可选的第二参数来更改。允许的日志级别是：\n\n- E (错误)\n- W (警告)\n- I (信息)\n- D (调试)\n\n如果输入了未知级别，函数将使用默认的 `Info` 级别。"
+"help.logline.signature" = "$logline(文本[,级别])"
+"manifest.description" = "此插件提供了一个新的脚本函数 `$logline()` 来写入条目到 Picard 的系统日志。"
+"manifest.long_description" = "此插件提供了一个新的脚本函数 `$logline()` 来写入条目到 Picard 的系统日志。默认情况下，日志级别设置为 `Info`，但可以通过向函数提供级别作为可选的第二参数来使用任何级别。\n\n该函数的使用方式为：\n\n`$logline(text[,level])`\n\n其中 `text` 是要写入日志的文本。条目默认以 `Info` 级别写入日志，但可以通过指定不同的级别作为可选的第二参数来更改。允许的日志级别是：\n\n- E (错误) - W (警告) - I (信息) - D (调试)\n\n如果输入了未知级别，函数将使用默认的 `Info` 级别。"
+"manifest.name" = "脚本记录器"
 
